@@ -8,7 +8,7 @@ export const Navbar=()=>{
       await signOut(auth);
     };
 
-    
+    //use referrerpolicy when image is not loading
     return( 
         <div className='navbar'>
          <div className="links">
@@ -22,7 +22,7 @@ export const Navbar=()=>{
                 <>
              <p>{user?.displayName}</p>
 
-             <img src={user?.photoURL|| "" } width="25" height="25" referrerPolicy='no-referrer' />
+             <img src={user?.photoURL|| "" } width="25" height="25" referrerPolicy='no-referrer' /> 
 
              <button onClick={logout}>Log Out</button>
              </>
