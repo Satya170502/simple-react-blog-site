@@ -9,13 +9,16 @@ export const Navbar=()=>{
     };
 
     //use referrerpolicy when image is not loading
-    return( 
-        <div className='navbar'>
+    return(
+<div className='navbar'>
          <div className="links">
          <Link to="/">Home</Link>
-         <Link to="/login">Login</Link>
-         <Link to="/logout">Logout</Link>
+         {!user ? (<Link to="/login">Login</Link>):(<Link to="/createpost">Create Post</Link>)}
+         
+         
          </div>
+    
+        
          
          <div className='user'>
             {user &&(

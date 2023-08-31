@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 import { Main } from './pages/main';
 import { Login } from './pages/login';
 import { Navbar } from './components/navbar';
+import { CreatePost } from './create-post/CreatePost';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Main/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/createpost' element={<CreatePost/>}/>
       </Routes>
      </Router>
     </div>
