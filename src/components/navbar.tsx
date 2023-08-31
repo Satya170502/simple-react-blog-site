@@ -22,7 +22,7 @@ export const Navbar=()=>{
                 <>
              <p>{user?.displayName}</p>
 
-             <img src={user?.photoURL|| "" } width="20" height="20" referrerPolicy='no-referrer' />
+             <img src={user?.photoURL|| "" } width="25" height="25" referrerPolicy='no-referrer' />
 
              <button onClick={logout}>Log Out</button>
              </>
