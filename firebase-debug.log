@@ -1,0 +1,78 @@
+[debug] [2023-09-01T13:37:40.211Z] ----------------------------------------------------------------------
+[debug] [2023-09-01T13:37:40.213Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kscub\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-01T13:37:40.213Z] CLI Version:   12.5.2
+[debug] [2023-09-01T13:37:40.213Z] Platform:      win32
+[debug] [2023-09-01T13:37:40.214Z] Node Version:  v20.3.0
+[debug] [2023-09-01T13:37:40.214Z] Time:          Fri Sep 01 2023 19:07:40 GMT+0530 (India Standard Time)
+[debug] [2023-09-01T13:37:40.214Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-01T13:37:40.219Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-01T13:37:40.219Z] > authorizing via signed-in user (ksatya1705@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kscub\Desktop\react-blogsite
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-01T13:39:55.967Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-09-01T13:39:56.817Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-01T13:39:56.817Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-09-01T13:41:11.937Z] ----------------------------------------------------------------------
+[debug] [2023-09-01T13:41:11.939Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kscub\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-01T13:41:11.940Z] CLI Version:   12.5.2
+[debug] [2023-09-01T13:41:11.940Z] Platform:      win32
+[debug] [2023-09-01T13:41:11.940Z] Node Version:  v20.3.0
+[debug] [2023-09-01T13:41:11.940Z] Time:          Fri Sep 01 2023 19:11:11 GMT+0530 (India Standard Time)
+[debug] [2023-09-01T13:41:11.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-01T13:41:11.947Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-01T13:41:11.947Z] > authorizing via signed-in user (ksatya1705@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kscub\Desktop\react-blogsite
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-01T13:41:24.015Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-09-01T13:41:24.856Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-01T13:41:24.856Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project react-socialmedia-662da (react-socialmedia) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Using project react-socialmedia-662da (react-socialmedia) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
